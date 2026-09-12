@@ -12,6 +12,18 @@ A personal, offline-first Android productivity app for managing everyday tasks, 
 
 ---
 
+## 📱 Download DayFlow
+
+### Android
+
+**[⬇️ Download DayFlow v1.0.0](../../releases/latest)**
+
+Download the APK from the latest GitHub Release and install it on your Android device.
+
+> **Note:** Android may ask you to allow installation from unknown sources when installing the APK downloaded from GitHub.
+
+---
+
 ## ✨ Features
 
 ### 📊 Dashboard
