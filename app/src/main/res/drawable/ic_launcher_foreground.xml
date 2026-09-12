@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:pivotX="54" android:pivotY="54" android:rotation="45" android:scaleX="0.9" android:scaleY="0.9">
+        <!-- Outer Arc -->
+        <path
+            android:pathData="M 54,22 A 32,32 0 1,1 22,54"
+            android:strokeWidth="10"
+            android:strokeLineCap="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="54" android:startY="22"
+                    android:endX="22" android:endY="54"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#3366CC" />
+                    <item android:offset="1" android:color="#4C8DFF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Inner Arc -->
+        <path
+            android:pathData="M 54,70 A 16,16 0 1,1 70,54"
+            android:strokeWidth="10"
+            android:strokeLineCap="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="54" android:startY="70"
+                    android:endX="70" android:endY="54"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#66B2FF" />
+                    <item android:offset="1" android:color="#D1E4FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Center Dot -->
+        <path
+            android:pathData="M 54,54 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0"
+            android:fillColor="#FFFFFF"/>
+    </group>
+</vector>
